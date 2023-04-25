@@ -1,5 +1,3 @@
-<%@ page import="java.util.ArrayList" %>
-<%@ page import="kz.bitlab.techorda.db.User" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -16,7 +14,6 @@
                             <h5 class="card-title" >Incorrect email or login</h5>
                         </div>
                     </div>
-
             <% }%>
                 <form action="/login" method="post" class="p-3">
                     <div class="card mt-3">
@@ -35,7 +32,6 @@
                                             <br><br>
                                         </td>
                                     </tr>
-
                                     <tr style="padding-top: 10px">
                                         <td style="width: 15%">
                                             Password

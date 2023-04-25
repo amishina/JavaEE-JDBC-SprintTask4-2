@@ -1,7 +1,4 @@
 package kz.bitlab.techorda.db;
-
-import com.mysql.cj.util.DnsSrv;
-
 public class User {
     private long id;
     private String email;
@@ -9,7 +6,6 @@ public class User {
     private String fullName;
 
     public User() {
-
     }
 
     public User(long id, String email, String password, String fullName) {
